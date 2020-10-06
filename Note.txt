@@ -1,0 +1,2 @@
+docker build -t kasun1996/simpleweb . - build the container
+docker run -p 8080:8080 kasun1996/simpleweb - map the docker container port to machine localhost port 8080 and run
